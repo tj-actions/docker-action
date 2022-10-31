@@ -19,8 +19,7 @@ jobs:
         with:
           pattern: '${{ github.repository }}@'
           only_major: true
-          paths: |
-            README.md
+          paths: README.md
       - name: Generate CHANGELOG
         uses: tj-actions/github-changelog-generator@v1.15
         with:

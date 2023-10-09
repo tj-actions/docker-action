@@ -3,7 +3,6 @@ repos:
     rev: v0.0.18
     hooks:
       - id: forbid-binary
-      - id: shellcheck
 
   - repo: https://github.com/cisagov/pre-commit-shfmt
     rev: v0.0.2

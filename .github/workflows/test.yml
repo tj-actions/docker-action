@@ -17,5 +17,7 @@ jobs:
         uses: actions/checkout@v4
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
+      - name: shfmt
+        uses: reviewdog/action-shfmt@v1
       - name: Run docker-action
         uses: ./
